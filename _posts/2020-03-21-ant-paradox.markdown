@@ -3,6 +3,7 @@ layout: post
 title:  The ant and the elastic rope
 date:   2020-03-20 16:22:50 +0100
 categories: test
+mathjax: true
 ---
 
 A classical example of counter-intuitive mathematics
@@ -49,6 +50,6 @@ Does it change a lot, though ? The ant is still, everyday, further away from the
 
 But, however, things are not so grim ! We need to consider taking another perspective to this problem. How about the proportion of the rope that the ant travelled each day ? On the first day, it travelled 1cm out of 100, so 1/100 of the total length. On the second day, it still manages to walk 1cm, out of 200 this time, so 1/200. On the third, 1/300 and on the fourth, 1/400. And things go like this, on and on and on...
 
-\[
+$$
     \frac{1}{2}
-\]
+$$
