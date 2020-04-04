@@ -54,7 +54,7 @@ $$
     S = \frac{1}{100} + \frac{1}{200} + \frac{1}{300} + \frac{1}{400} + \ldots
 $$
 
-The sum will go on and on, without ever stopping, ever adding smaller and smaller quantities. For the ant to complete its journey, we would have the total sum reaching 1.
+The sum, that we name $S$, will go on and on, without ever stopping, ever adding smaller and smaller quantities. For the ant to complete its journey, we would have the total sum reaching 1.
 
 ## Of sums and infinity
 
@@ -71,22 +71,29 @@ First, let's have a look at what means "growing towards infinity". Infinity is, 
 That means that, for every possible number, $S$ will eventually grow larger than it.
 
 Now, look closely at the terms in $S$, and how many of them are required to add up to at least $\frac{1}{200}$. The first one, obviously, is enough to reach over $\frac{1}{200}$. The second term, too. Now, for the next ones, we get:
+
 $$
     \frac{1}{300} + \frac{1}{400} \geq \frac{1}{200}
 $$
+
 $$
     \frac{1}{500} + \frac{1}{600} + \frac{1}{700} + \frac{1}{800} \geq \frac{1}{200}
 $$
+
 $$
     \frac{1}{900} + \ldots + \frac{1}{1600} \geq \frac{1}{200}
 $$
+
 And so on, each step requiring two times more terms from $S$. It works for the first terms, but can it work for *any* terms in the sum ? Well, yes, and that is because of the powers of $2$.
 
 In every line, the denominator of the last term was a power of $2$ times $100$. And since this is the smallest term of the line, all the others are larger. So, for instance:
+
 $$
     \frac{1}{1700} + \frac{1}{1800} + \ldots + \frac{1}{3200} \geq \frac{1}{3200} + \frac{1}{3200} + \ldots + \frac{1}{3200}
 $$
+
 this inequality coming from replacing all terms in the left hand side with the smaller $\frac{1}{3200}$ term. And, since there are $16$ terms in this sum, we have
+
 $$
     \frac{1}{1700} + \frac{1}{1800} + \ldots + \frac{1}{3200} \geq \frac{1}{3200} + \frac{1}{3200} + \ldots + \frac{1}{3200} = 16 \times \frac{1}{3200} = \frac{1}{200}
 $$
