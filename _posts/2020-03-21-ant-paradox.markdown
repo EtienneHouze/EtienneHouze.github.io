@@ -86,6 +86,11 @@ $$
 
  Now, for the next ones, we get:
 
+<<<<<<< HEAD
+=======
+Now, look closely at the terms in $S$, and how many of them are required to add up to at least $\frac{1}{200}$. The first one, obviously, is enough to reach over $\frac{1}{200}$. The second term, too. Now, for the next ones, we get:
+
+>>>>>>> 4ecb6c39ab75cfec14297e882d1266756589bdc9
 $$
     \frac{1}{300} + \frac{1}{400} \geq \frac{1}{200}
 $$
